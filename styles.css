@@ -1,0 +1,197 @@
+body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(202, 200, 200);
+  display: flex;
+  align-items: center;
+  padding-left: 4%;
+  padding-right: 4%;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+label {
+  margin: 1%;
+  padding-left: 2%;
+}
+input {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 2%;
+  background-color: rgba(201, 216, 229, 0.515);
+}
+label.labelCheckBox {
+  padding: 0%;
+  font-size: 90%;
+}
+
+
+div.containerForm {
+  background-color: rgba(245, 245, 245, 0.718);
+  height: 90%;
+  width: 100%;
+  border-radius: 2% 0% 0 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div.containerInfo {
+  background-color: green;
+  background-image: url(./hawaii.webp);
+  border-image-width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 0% 2% 2% 0%;
+  /*Case flex-direction its mode column,
+    justify-content is now y-axis
+    aling-items is now x-axis.
+  */
+}
+
+div.containerTextStars {
+  background-color: rgba(187, 181, 181, 0.682);
+  border-radius: 1%;
+  height: 40%;
+  width: 90%;
+  margin: 5%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 0px 2px 20px 10px rgba(33, 30, 30, 0.463);
+}
+
+
+div.containerTextBotton {
+  background-color: rgba(186, 35, 35, 0.682);
+  border-radius: 4%;
+  height: 20%;
+  margin: 5%;
+  padding: 10%;
+}
+
+div.containerStars {
+  display: flex;
+  /* background-color: red; */
+  width: 100%;
+  height: 100%;
+  /* flex-direction: row; */
+  justify-content: space-between;
+}
+
+div.containerA {
+  margin: 2%;
+  padding: 2%;
+  width: 100%;
+  height: 100%;
+  /* background-color: blue; */
+}
+
+
+div.containerB {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  width: 100%;
+  height: 100%;
+  /* background-color: violet; */
+}
+
+div.stars {
+  display: flex;
+  /* align-items: flex-end; */
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  height: 50%;
+  margin-top: -20px;
+  /* background-color: rgb(2, 57, 25); */
+}
+div.rows {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+img.stars {
+  width: 10%;
+  height: 40%;
+}
+img.rowImage {
+  width: 20%;
+  height: 40%;
+}
+
+p.welcomeMessage {
+  color: rgb(92, 99, 105);
+}
+.formControl {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.formControlChecks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.labelCheckBox {
+  margin: 10px;
+}
+
+.containerText {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 125%;
+  padding-top: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-top: -5px;
+  margin-bottom: 2%;
+}
+
+div.submitContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.myButton {
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  margin: 6px;
+  border-radius: 10px;
+}
+
+.googleButton {
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  height: 10px;
+  margin: 6px;
+  border-radius: 10px;
+  border-color: grey;
+}
+div.textGoogle {
+  margin-top: -7%;
+}

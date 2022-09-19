@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Lading Page</title>
+</head>
+<body>
+  <!-- <div class="containerBox"> -->
+    <div class="containerForm">
+      <h1 class="welcome">
+        Welcome back
+      </h1>
+      <p class="welcomeMessage">
+        Welcome back! please enter your detail
+      </p>
+      <form id="form">
+        <!-- Detalles for Email -->
+        <div class="formControl" >
+          <label for="email" id="label-email">
+            Email
+          </label>
+          <input type="email" id="email" placeholder="Enter your email">
+        </div>
+        <!-- Enter password -->
+        <div class="formControl">
+          <label for="password" id="label-password">
+            Password
+          </label>
+          <input type="password" id="password" placeholder="Enter your password">
+        </div>
+        <!-- checkbox -->
+        <div class="formControlChecks">
+          <label for="inp-1" class="labelCheckBox">
+            <input type="checkbox" name="inp">
+            <strong>Remember for 30 days</strong> 
+          </label>
+          <label for="inp-2" class="labelCheckBox">
+            <input type="checkbox" name="inp"> 
+           <strong> Forgot password</strong>
+          </label>
+        </div>
+        <div class="submitContainer">
+          <button type="submit" value="submit" class="myButton">
+            Sign up
+          </button>
+        </div>
+        
+        <div class="submitContainerGogle">
+          <button class="googleButton" href="/users/google-oauth/" style="text-transform:none">
+            <div class="textGoogle">
+              <img height="20px" width="20px" style="margin-top:7px; margin-right:8px" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+              Sing in with Google
+            </div>
+          </button>
+        </div>
+      
+
+      </form>
+    </div>
+    <div class="containerInfo">
+      <div class="containerTextStars">
+        <h5 class="containerText">
+          "My experience with Princeville Resort was almost perfect since I had some small problems with customer service, however, everything else is simply magical, I highly recommend that you come and visit this wonderful place."
+        </h5>
+        <div class="containerStars">
+          <div class="containerA">
+            <h5 class="containerText">
+              Andi Lane
+            </h5>
+            <p class="containerText">
+              Customer Resort
+            </p>  
+            <p class="containerText">
+             <i>We try to do the best for you! </i> 
+            </p>
+          </div>
+          <div class="containerB">
+            <div class="stars">
+              <img class="stars" src="./starWhite.png" alt="White Star">
+              <img  class="stars" src="./starWhite.png" alt="White Star">
+              <img class="stars" src="./starWhite.png" alt="White Star">
+              <img class="stars" src="./starWhite.png" alt="White Star">
+              <img class="stars" src="./starWhite.png" alt="White Star">
+              <img class="stars" src="./starBlack.png" alt="White Star">
+            </div>
+
+            <div class="rows">
+              <img class="rowImage" src="./left.png" alt="a left row">
+              <img class="rowImage" src="./right.png" alt="a left row">
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+</body>
+</html>
